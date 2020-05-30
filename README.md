@@ -13,6 +13,10 @@ To obtain an array of images:
 ![](/img/after_cut_with_edge.png) \
 With icbs you can also do the inverse operation, and given the images, rebuild the original one.
 
+## Installation & Requirements
+To install this library you need to have at least python 3.6. \
+Run `pip install icbs`. 
+
 ## Usage
 icbs has two methods, cut and rebuild. The parameters are similar for both images and are better explained through an image: \
 ![](/img/pre_cut_labled.png) \
