@@ -1,5 +1,6 @@
 # icbs - Image Cut and (re)Build Squares
-Package to cut an image in overlapping rectangles and to rebuild it.
+Package to cut an image in overlapping rectangles and to rebuild it. \
+Can be used for pre-processing an image before a learning algorithm and then rebuild it or to create a data set from a large image. 
 
 ## Description
 It is useful to cut an image like this one: \
