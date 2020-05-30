@@ -14,7 +14,7 @@ To obtain an array of images:
 With icbs you can also do the inverse operation, and given the images, rebuild the original one.
 
 ## Installation & Requirements
-To install this library you need to have at least python 3.6. \
+To install this library you need to have at least python 3.6. You also need to install `numpy`\
 Run `pip install icbs`. 
 
 ## Usage
