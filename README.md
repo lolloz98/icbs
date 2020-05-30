@@ -2,9 +2,9 @@
 Package to cut an image in overlapping rectangles and to rebuild it.
 
 ## Description
-It is useful to cut an image like this one:
+It is useful to cut an image like this one: \
 ![](/img/pre_cut.png) \
-To obtain an array of images:
+To obtain an array of images: \
 ![](/img/after_cut.png)
 
 It is useful because it handles well edge cases; from this image:
