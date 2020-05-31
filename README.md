@@ -37,12 +37,12 @@ cut(np_img, 250, 300, 100, 50)
 ```
 We obtain this array of images: \
 ![](/img/example_cut.png) \
-and the value of n_col_per_row = 3. \
+and the value of n_col_per_row = 4. \
 I did simple image processing on them and I have got this new array of images: \
 ![](/img/example_processed.png) \
 I have then rebuilt the image: 
 ```
-rebuild(imgs, 3, 250, 300, 100, 50, 754, 414)
+rebuild(imgs, 4, 250, 300, 100, 50, 754, 414)
 ```
 To obtain: \
 ![](/img/example_rebuilt.png)
