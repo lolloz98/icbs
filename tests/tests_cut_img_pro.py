@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from cut import cut
+from icbs import cut
 
 
 class MyTestCase(unittest.TestCase):

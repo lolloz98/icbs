@@ -1,6 +1,7 @@
 import unittest
-from rebuild import *
-from cut import cut_img_pro, get_default_overlaps
+from icbs import *
+from icbs.rebuild import *
+from icbs.cut import get_default_overlaps
 import spectral.io.envi as envi
 
 
