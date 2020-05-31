@@ -96,8 +96,7 @@ def median(l):
     return statistics.median(l)
 
 
-def rebuild(images, n_img_per_col, n_s_row_max, n_s_col_max, overlap_w, overlap_h,
-            W=4172, H=1202, interpolator=lambda x: mean(x)):
+def rebuild(images, n_img_per_col, n_s_row_max, n_s_col_max, overlap_w, overlap_h, W, H, interpolator=lambda x: mean(x)):
     """
     :param images: list of images
     :param n_img_per_col: number of images per col (regarding original img)

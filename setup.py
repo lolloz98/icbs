@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='icbs',
-    version='0.0.1',
+    version='0.0.2',
     description='Simple image cut and rebuild package. It allows to decide how to cut an image in overlapping squares. After having cut the image you can rebuild it (or you can do some processing before rebuilding it)',
     long_description=long_description,
     author='Lorenzo Carpaneto',
@@ -16,5 +16,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 	url="https://github.com/lolloz98/icbs",
-    python_requires='>=3.6'
+    python_requires='>=3.6',
+	install_requires=['numpy']
 )
