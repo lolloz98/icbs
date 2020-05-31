@@ -27,7 +27,7 @@ You can find more info reading the parameter description under both methods.
 
 ## Example
 The script for this example is in [**example**](https://github.com/lolloz98/icbs/tree/master/example)<br>
-(Most of the mesurements are in number of pixels.) \
+(Most of the parameters are in number of pixels.) \
 Let's take this picture: \
 ![](/img/example.png) \
 It has width (W) = 754, height (H) = 414 and three channels (RGB). \
